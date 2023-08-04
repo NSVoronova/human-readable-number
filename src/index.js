@@ -1,7 +1,6 @@
 module.exports = function toReadable (number) {
   let b = String(number);
   let numbersArray = b.split('');
-  let resultArray = [];
   let emptyString = '';
   let simpleArray = [emptyString, "one","two","three","four","five","six","seven","eight","nine"];
   let onetyArray = ["ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"];
